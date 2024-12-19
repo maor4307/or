@@ -1,0 +1,70 @@
+/* עיצוב כללי */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    direction: rtl;
+    text-align: right;
+}
+
+header {
+    background-color: #00509e;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 2rem 0;
+    margin: 2rem 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #00509e;
+}
+
+ul {
+    padding-right: 20px;
+    list-style: disc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #00509e;
+    color: #fff;
+}
